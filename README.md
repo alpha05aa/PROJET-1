@@ -53,3 +53,9 @@ document.getElementById('search-button').addEventListener('click', function() {
         alert('يرجى إدخال نص للبحث.');
     }
 });
+git init
+git add .
+git commit -m "النسخة الأولى من محرك البحث"
+git branch -M main
+git remote add origin https://github.com/اسم_المستخدم/اسم_المستودع.git
+git push -u origin main
